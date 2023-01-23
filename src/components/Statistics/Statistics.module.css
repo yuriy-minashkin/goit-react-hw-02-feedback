@@ -1,0 +1,33 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  gap: 10px;
+  font-size: 18px;
+}
+
+li {
+  background-repeat: no-repeat;
+  background-position: 0;
+}
+
+span {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.good {
+  background-image: url("/src/image/good.png");
+  background-size: 45px;
+}
+
+.neutral {
+  background-image: url("/src/image/neutral.png");
+  background-repeat: no-repeat;
+  background-size: 30px;
+}
+
+.bad {
+  background-image: url("/src/image/bad.png");
+  background-size: 17px;
+}

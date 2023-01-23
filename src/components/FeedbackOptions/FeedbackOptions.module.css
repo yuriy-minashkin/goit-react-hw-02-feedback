@@ -1,0 +1,44 @@
+.wrapper {
+  display: flex;
+  gap:20px;
+}
+
+.button {
+  text-transform:capitalize;
+  font-size: 18px;
+  font-weight: 700;
+  min-width: 80px;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 1px 2px 4px 2px #cbc7c7da;
+  color: rgba(0, 0, 0, 0.6);
+  background-color: rgb(185, 185, 160);
+  
+  background-size: 28px;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 5px 10px;
+}
+
+.button:first-child {
+  background-image: url("/src/image/good.png");
+  background-size: 80px;
+}
+
+.button:nth-child(2n) {
+  background-image: url("/src/image/neutral.png");
+  background-size: 55px;
+}
+
+.button:last-child {
+  background-image: url("/src/image/bad.png");
+}
+
+.button:hover {
+  background-color: rgb(138, 138, 138);
+}
+
+.button:active {
+  color: rgba(0, 0, 0, 0.7);
+  background-color: rgb(103, 103, 103);
+}
