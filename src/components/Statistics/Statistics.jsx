@@ -4,7 +4,7 @@ import css from './Statistics.module.css';
 export const Statistics = ({good, neutral, bad, total, positivePercentage}) => {
   return (
     <ul className={css.list}>
-      <li className={css.good}><img></img>Good: <span>{good}</span></li>
+      <li className={css.good}>Good: <span>{good}</span></li>
       <li className={css.neutral}>Neutral: <span>{neutral}</span></li>
       <li className={css.bad}>Bad: <span>{bad}</span></li>
       <li>Total: <span>{total}</span></li>
